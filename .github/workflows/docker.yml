@@ -5,7 +5,7 @@ on:
     branches: pratice
 
     jobs:
-      build:
+      docker:
         runs-on: ubuntu-latest
 
         steps:

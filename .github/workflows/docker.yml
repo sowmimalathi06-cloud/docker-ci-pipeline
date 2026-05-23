@@ -2,11 +2,10 @@ name: docker-ci/cd
 
 on:
   push:
-    branches:
-      - pratice
+    branches: pratice
 
 jobs:
-  docker:
+  build:
     runs-on: ubuntu-latest
 
     steps:
